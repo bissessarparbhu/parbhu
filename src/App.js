@@ -1,11 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
+import Header from "./components/Header";
+import FirstSection from "./components/FirstSection";
 
 function App() {
   return (
     <div className="App">
-      <h1> Parbhu</h1>
+      <Header></Header>
+      <FirstSection></FirstSection>
     </div>
   );
 }
