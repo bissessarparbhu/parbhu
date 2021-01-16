@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <p>hello</p>
       <SimpleBottomNavigation></SimpleBottomNavigation>
     </div>
   );
